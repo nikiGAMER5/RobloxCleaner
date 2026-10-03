@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2FF" />
+      <stop offset="100%" stop-color="#0072FF" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F5A0" />
+      <stop offset="100%" stop-color="#00D9F5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Rounded Shield -->
+  <rect x="16" y="16" width="224" height="224" rx="48" fill="url(#bgGrad)" stroke="#334155" stroke-width="4"/>
+
+  <!-- Roblox stylized tilted cube background -->
+  <g transform="translate(128,128) rotate(-15) translate(-128,-128)">
+    <rect x="64" y="64" width="128" height="128" rx="28" fill="url(#primaryGrad)"/>
+    <rect x="96" y="96" width="64" height="64" rx="14" fill="#0F172A"/>
+  </g>
+
+  <!-- Cleaning Spark / Lightning Overlay -->
+  <path d="M145 35 L95 130 L135 130 L110 220 L175 115 L135 115 Z" fill="url(#accentGrad)" opacity="0.95" filter="drop-shadow(0 4px 8px rgba(0,0,0,0.4))"/>
+</svg>
